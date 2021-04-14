@@ -156,12 +156,17 @@ form select option{
         justify-content: center;
     
 }
-.img-destaque ul{
+.img-destaque{
     display:flex;
     flex-wrap: wrap;
    align-items: center;
+   box-sizing: border-box;
 }
 .img-destaque ul li{
+    max-width: 300px;
+    margin: 20px;
+}
+.slide-show{
     max-width: 300px;
     margin: 20px;
 }
@@ -169,7 +174,16 @@ form select option{
    
         display:flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center;       
+    
+}
+.contato-fale{
+    margin-top: -30px;
+}
+.mod-box{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 .footer{
@@ -185,6 +199,7 @@ form select option{
     height: 380px;
     padding: 20px;
     margin-bottom: 40px;
+    margin-right: 100px;
 }
 
 .form-label{
@@ -220,3 +235,70 @@ form select option{
     margin: 20px 0 20px 60px;
     border-radius: 4px;
 }
+
+
+.redes-contato{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 40px;
+    margin-bottom: 20px;
+}
+
+.sub-subtitulo{
+    text-transform: uppercase;
+    font-family:'Fira Mono', monospace; 
+    font-weight: 100;
+    font-size: 1em;
+    text-align: center;
+}
+
+.sub-subtitulo:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #733236;
+   margin: 10px auto auto 140px;
+   
+
+  }
+  .contato-fale{
+      max-width: 400px;
+  }
+  p{
+    font-family:'Fira Mono', monospace; 
+    margin-left: 20px;
+  }
+  .info{
+      display: flex;
+  }
+  .info-redes{
+      display: flex;
+      justify-content: center;
+     
+  }
+
+
+  /*Paginas de casas */
+
+  .descri-tab{
+      display: flex;
+      flex-wrap: wrap;
+      width: 500px;
+      justify-content: center;
+  }
+  .tit{
+      text-transform: uppercase;
+      color: #733236;
+      font-size: 2.5em;
+      text-align: center;
+      margin-top: 40px;
+      font-family:'Fira Mono', monospace; 
+  }
+  .format-foto{
+      max-width: 800px;
+      margin-left: 80px;
+      margin-top: 40px;
+     
+
+  }
