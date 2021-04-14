@@ -1,0 +1,166 @@
+body, h1, h2, p, ul, li, a {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+  
+	background:E3DBD3;
+    color:#000103;
+    
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+.logo{
+    width: 200px;
+}
+
+.menu{
+   
+   padding: 10px 0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+
+.menu-nav ul li{
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Fira Mono', monospace;
+    color:#000103;
+    font-size: 1.em;
+}
+
+.menu-logo{
+    margin: 0 20px;
+}
+
+.subtitulo{
+    font-family: 'Fira Mono', monospace;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin:40px 0 40px 0;
+    text-align: center;
+   
+}
+.subtitulo:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #733236;
+    margin: 10px auto;
+
+
+  }
+  
+.foto-fundo{
+    background-image:url("../img/img/fundo.png");
+    background-repeat: no-repeat cover;
+    max-width: 100%;
+    height: 800px;
+    opacity: 0.8;
+    display: flex;
+    
+}
+.titulo{
+    font-family: 'Fira Mono', monospace;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 5em;
+    align-items: center;
+    margin: 100px;
+    margin-top:250px;
+    max-width: 600px;
+    font-weight: 800;
+  
+}
+
+.form-filtro{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bloco-form {
+    width: 960px;
+    background:#000103;
+    padding: 20px;
+    margin-left:150px;
+}
+.imovel{
+    width: 425px;
+    margin:10px;
+    height: 25px;
+}
+.banheiro{
+    width: 200px;  
+    margin:10px;
+    height: 25px;
+}
+.cidade{
+    width: 200px;  
+    margin:10px;
+    height: 25px;
+}
+.btn{
+    width: 150px;
+    height: 30px;
+    background: #733236;
+    justify-content: flex-end;
+    margin: 20px;
+    margin-left: 280px;
+}
+
+.imovel-destaque{
+   
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+}
+.img-destaque ul{
+    display:flex;
+    flex-wrap: wrap;
+   align-items: center;
+}
+.img-destaque ul li{
+    max-width: 300px;
+    margin: 20px;
+}
+.contato{
+   
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+}
+.footer{
+    background: #733236;
+    width: 100%;
+    text-align: center;
+   padding:5px;
+}

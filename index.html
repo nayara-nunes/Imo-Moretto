@@ -4,9 +4,162 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Fira+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
     <title>Imobiliária Moretto</title>
+
 </head>
 <body>
+  <header class="container">
+      <div class="menu">
+          <a href="index.html" class="menu-logo">
+              <img src="./img/img/logo2.png" alt="Imobiliaria Moretto -Logo" class="logo">
+          </a>
+          <nav  class="menu-nav">
+          <ul>
+              <li>
+                  ENCONTRE SEU IMÓVEL
+              </li>
+              <li>
+                  FAVORITOS
+              </li>
+              <li>
+                  CONTATO
+              </li>
+              <li>
+                  BLOG
+              </li>
+              <li>
+                  AREA DO CLIENTE 
+              </li>
+          </ul>
+        </nav>
+      </div>
+    </header>  
+    <section class="foto-fundo">
+        <h1 class="titulo">
+            Bem-vindo a sua nova casa!
+        </h1> 
+        <br>
+     
+
+    </section>
+
+    <section>
+        <div class="form-filtro">
+        <h2 class="subtitulo"> Encontre o seu imóvel</h2>
+    </div>
+    <div class="bloco-form">
+        <form>
+            <select name="bairro" class="imovel">
+                <option value="valor1" selected>TIPO DE IMÓVEL</option>
+                <option value="valor2" >JARDIM CANDIDÉS</option>
+                <option value="valor3">INTERLAGOS</option>
+                <option value="valor3">IPANEMA</option>
+                <option value="valor3">SANTO ANTONIO</option>
+                <option value="valor3">ICARAÍ</option>
+                <option value="valor3">BOM PASTOR</option>
+                <option value="valor3">PORTO VELHO</option>
+              </select>
+              <select name="bethroom" class="banheiro">
+                <option value="valor1" selected>N DE BANHEIROS</option>
+                <option value="valor2">1</option>
+                <option value="valor3">2</option>
+                <option value="valor3">3 OU MAIS </option>
+               </select>
+               <select name="room" class="banheiro">
+                <option value="valor1" selected>N DE QUARTOS</option>
+                <option value="valor2">1</option>
+                <option value="valor3">2</option>
+                <option value="valor3">3 OU MAIS </option>
+               </select>
+               <select name="area-externa" class="banheiro">
+                <option value="valor1" selected>AREA EXTERNA</option>
+                <option value="valor2">SIM</option>
+                <option value="valor3">NÃO</option>
+               
+               </select>
+               <select name="area-externa" class="cidade">
+                <option value="valor1" selected>CIDADE</option>
+                <option value="valor2">DIVINÓPOLIS</option>
+                <option value="valor3">LAVRAS</option>
+               </select>
+
+         <select class="cidade">
+            <option value="valor1" selected>VALOR</option>
+            <option value="valor2" >ENTRE R$ 500,00  E R$ 600,00</option>
+            <option value="valor3">ENTRE R$ 600,00  E R$ 700,00</option>
+            <option value="valor3">ENTRE R$ 700,00  E R$ 800,00</option>
+            <option value="valor3">ENTRE R$ 800,00  E R$ 900,00</option>
+            <option value="valor3">ENTRE R$ 900,00  E R$ 1000,00</option>
+           
+          </select>
+        
+             <input type="text" id="cod" name="cod" value=" CÓDIGO DO IMÓVEL:" class="cidade"><br>
+             <select name="bairro" class="imovel">
+                <option value="valor1" selected>BAIRRO</option>
+                <option value="valor2" >JARDIM CANDIDÉS</option>
+                <option value="valor3">INTERLAGOS</option>
+                <option value="valor3">IPANEMA</option>
+                <option value="valor3">SANTO ANTONIO</option>
+                <option value="valor3">ICARAÍ</option>
+                <option value="valor3">BOM PASTOR</option>
+                <option value="valor3">PORTO VELHO</option>
+              </select>
+
+             <input type="submit" value="BUSCAR IMÓVEL" class="btn">
+
+        </form>
+    </div>
+    </section>
+    <section  class="imovel-destaque">
+        <div >
+        <h2 class="subtitulo">
+            Imóveis em destaque 
+        </h2>
+        <div class="img-destaque">
+        <ul>
+            <li>
+                <img src="./img/img/casa1.jpg">
+            </li>
+            <li>
+                <img src="./img/img/casa2.jpg" >
+            </li>
+            <li>
+                <img src="./img/img/casa3.jpg" >
+            </li>
+        </ul>
+    </div>
     
+    </div>
+
+    </section>
+
+    <section class="contato">
+        <div>
+        <h2 class="subtitulo">
+            Contato
+        </h2>
+        <div>
+            <form>
+                <label for="fname"class="form-label">NOME:</label><br>
+                <input type="text" id="fname" name="fname" value="Nome Completo"><br>
+                <label for="lname"class="form-label">EMAIL:</label><br>
+                <input type="text" id="lname" name="lname" value="E-mail"><br>
+                <label for="fname" class="form-label">TELEFONE:</label><br>
+                <input type="text" id="fname" name="fname" value="Nome Completo"><br><br>
+                <input type="submit" value="ENVIAR" class="btn">
+            </form>
+        </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h4>
+            @Copyright 2020 - Moretto Imobiliária
+        </h4>
+    </footer>
+
 </body>
 </html>
