@@ -162,12 +162,9 @@ form select option{
    align-items: center;
    box-sizing: border-box;
 }
-.img-destaque ul li{
-    max-width: 300px;
-    margin: 20px;
-}
+
 .slide-show{
-    max-width: 300px;
+    max-width: 450px;
     margin: 20px;
 }
 .contato{
@@ -282,9 +279,14 @@ form select option{
   /*Paginas de casas */
 
   .descri-tab{
-      display: flex;
-      flex-wrap: wrap;
-      width: 500px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 500px;
+        
+    
+  }
+  .tent{
       justify-content: center;
   }
   .tit{
@@ -296,9 +298,10 @@ form select option{
       font-family:'Fira Mono', monospace; 
   }
   .format-foto{
-      max-width: 800px;
-      margin-left: 80px;
+      max-width: 1200px;
+      margin-left: 40px;
       margin-top: 40px;
+      margin-bottom: 40px;
      
 
   }
