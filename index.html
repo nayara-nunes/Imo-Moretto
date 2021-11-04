@@ -21,26 +21,39 @@
             </a>
             <nav class="menu-nav">
                 <ul>
-                    <li>
-                        ENCONTRE SEU IMÓVEL
-                    </li>
-                    <li>
-                        FAVORITOS
-                    </li>
-                    <li>
-                        CONTATO
-                    </li>
-                    <li>
-                        BLOG
-                    </li>
-                    <li>
-                        AREA DO CLIENTE
-                    </li>
+                 
+                        <li >   <a href="#imovel">
+                            ENCONTRE SEU IMÓVEL
+                        </a> </li>
+                    
+                    
+                        <li>
+                            <a href="#favoritos">
+                            FAVORITOS
+                        </a> </li>
+                  
+                    
+                        <li><a href="#contato">CONTATO</a>
+                            
+                        </li>
+                    
+                   
+                        <li> <a href="#blog">    BLOG</a>
+                        
+                        </li>
+                    
+                    <button class="button-client">
+                     
+                            <li> 
+                                AREA DO CLIENTE 
+                            </li>
+                       
+                    </button>
                 </ul>
             </nav>
         </div>
     </header>
-    <section class="foto-fundo">
+    <section class="header-site">
         <h1 class="titulo">
             Bem-vindo a sua nova casa!
         </h1>
@@ -49,9 +62,9 @@
 
     </section>
 
-    <section>
+    <section class="container">
         <div class="form-filtro">
-            <h2 class="subtitulo"> Encontre o seu imóvel</h2>
+            <h2 class="subtitulo" id="imovel"> Encontre o seu imóvel</h2>
         </div>
         <div class="bloco-form">
             <form>
@@ -111,48 +124,39 @@
                     <option value="valor3">PORTO VELHO</option>
                 </select>
 
-                <a href="result-imoveis.html"><input type="submit" value="BUSCAR IMÓVEL" class="btn"></a>
+                <a href="result-imoveis.html">  <button class="button-client btn">Buscar imóvel</button></a>
 
             </form>
         </div>
     </section>
-    <section class="imovel-destaque">
-        <div>
+    <section id="favoritos">
+        <div class="container">
             <h2 class="subtitulo">
                 Imóveis em destaque
             </h2>
-            <div class="img-destaque glider-contain">
-               
-                <div class="glider">
-                    
-                          <div class="slide-show"> <a href="casa-campo.html"><img src="./img/img/casa1.jpg"></a></div>
+            <div id="slider" class="img-destaque">
+
+                       <a href="casa-campo.html"><img src="./img/img/casa1.jpg" class="selected"></a>
                         
-                          <div class="slide-show"><img src="./img/img/casa2.jpg"></div>
+                        <img src="./img/img/casa2.jpg" >
                        
-                            <div class="slide-show"><img src="./img/img/3.jpg"></div>
+                          <img src="./img/img/3.jpg">
                     
-                        <div class="slide-show"> <img src="./img/img/4.jpg"></div>
+                        <img src="./img/img/4.jpg">
                       
-                        <div class="slide-show"><img src="./img/img/5.jpg"></div>
+                       <img src="./img/img/5.jpg">
                      
-                          <div class="slide-show"><img src="./img/img/6.jpg"></div>
-                  
-                        </div>
-                 
-                    
-                    
-                    <button aria-label="Previous" class="glider-prev">«</button>
-  <button aria-label="Next" class="glider-next">»</button>
-  <div role="tablist" class="dots"></div>
+                        <img src="./img/img/6.jpg">   
+                
             </div>
 
         </div>
 
     </section>
 
-    <section>
+    <section class="container">
         <div>
-            <div class="contato">
+            <div class="contato" id="contato">
                 <h2 class="subtitulo">
                     Contato
                 </h2>
@@ -169,7 +173,7 @@
                         <textarea id="story" name="story" rows="5" cols="33" class="area-text"> Mensagem...
       </textarea>
 
-                        <input type="submit" value="ENVIAR" class="btn btn-contato">
+                        <input type="submit" value="ENVIAR" class="button-client btn1">
                     </form>
                 </div>
                 <div class="contato-fale">
@@ -229,7 +233,6 @@
             @Copyright 2020 - Moretto Imobiliária
         </p>
     </footer>
-    <script src="./js/Glider.js-master/glider.js"></script>
     <script src="./js/script.js"></script>
 
 </body>
