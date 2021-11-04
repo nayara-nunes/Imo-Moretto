@@ -1,7 +1,11 @@
 <h1>Site simples de uma imobiliária para treino em flexbox</h1>
 
-- Foi todo posicionado com as propriedades  flex
-- Acrescentado uma lib JavaScript
+<ul>
+    <li>Foi todo posicionado com as propriedades  flex</li>
+    <li>Novas atualizações com galeria </li>
+    <li> Versão responsiva em construção</li>
+</ul>
 
 
-- Versão responsiva em construção
+<h1> 🔗Visualização</h1>
+
